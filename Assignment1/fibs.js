@@ -17,8 +17,8 @@ const fibs = (count) => {
   return result;
 };
 
-console.log(fibs(4));
-console.log(fibs(5));
-console.log(fibs(6));
-console.log(fibs(8));
-console.log(fibs(14));
+console.log(fibs(4)); // [ 0, 1, 1, 2 ]
+console.log(fibs(5)); // [ 0, 1, 1, 2, 3 ]
+console.log(fibs(6)); // [ 0, 1, 1, 2, 3, 5 ]
+console.log(fibs(8)); // [0, 1, 1, 2, 3, 5, 8, 13]
+console.log(fibs(14)); // [ 0,   1,  1,  2,  3,  5,8,  13, 21, 34, 55, 89, 144, 233]

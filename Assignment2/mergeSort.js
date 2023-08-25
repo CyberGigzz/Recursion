@@ -25,7 +25,7 @@ const merge = (leftArray, rightArray) => {
   return mergedCollection.concat(leftArray, rightArray);
 };
 
-console.log(mergeSort([4, 1, -15, 0, 24, 5, -344]));
-console.log(mergeSort([4, -7, -15, 0, 24, 55, -4]));
+console.log(mergeSort([4, 1, -15, 0, 24, 5, -344])); // [-344, -15, 0, 1,   4, 5,24]
+console.log(mergeSort([4, -7, -15, 0, 24, 55, -4])); // [-15, -7, -4, 0, 4, 24, 55]
 
-console.log(mergeSort([]));
+console.log(mergeSort([])); // []
